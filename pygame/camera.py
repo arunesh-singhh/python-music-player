@@ -6,7 +6,6 @@ from abc import ABC, abstractmethod
 
 _is_init = 0
 
-
 def _setup_opencv_mac():
     global list_cameras, Camera, colorspace
 
